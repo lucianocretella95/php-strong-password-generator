@@ -8,5 +8,11 @@
 </head>
 <body>
     <h1>Password generata</h1>
+<?php
+    $passlenght = $_GET["name"];
+    for ($x = 0; $x < $passlenght; $x++) {
+        echo "X";
+      }
+    ?>
 </body>
 </html>

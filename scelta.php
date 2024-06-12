@@ -8,5 +8,9 @@
 </head>
 <body>
     <h1>Scegli la lunghezza della tua password</h1>
+    <form action="genera.php" method="GET">
+password: <input type="number" name="name"><br>
+<input type="submit">
+</form>
 </body>
 </html>
